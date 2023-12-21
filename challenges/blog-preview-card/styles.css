@@ -111,10 +111,11 @@ main{
   box-shadow: 16px 16px;
   cursor: pointer;
   transition: 0.3s;
-  .card__title{
-    color: var(--Yellow);
-    transition: 0.3s;
-  }
+  
+}
+.card:hover .card__title{
+  color: var(--Yellow);
+  transition: 0.3s;
   
 }
 
