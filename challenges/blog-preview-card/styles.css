@@ -107,7 +107,24 @@ main{
   font-size: 16px;
 }
 
+.card:hover{
+  box-shadow: 16px 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  .card__title{
+    color: var(--Yellow);
+    transition: 0.3s;
+  }
+  
+}
 
+.card{
+  transition: 0.3s;
+}
+
+.card__title{
+  transition: 0.3s;
+}
 @media (min-width: 1280px) {
   body{
     display: flex;
@@ -115,5 +132,4 @@ main{
     height: 100vh;
     justify-content: center;
   }
-
 }
