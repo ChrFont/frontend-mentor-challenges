@@ -151,7 +151,6 @@ button:hover {
 @media (min-width: 1280px) {
   body {
     min-width: 1280px;
-    border: 1px solid;
   }
 
   article {
