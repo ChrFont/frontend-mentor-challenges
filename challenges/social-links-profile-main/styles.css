@@ -53,7 +53,7 @@ article {
   width: 335px;
   margin: 0 auto;
   background-color: var(--Dark-Grey);
-  padding: 20px;
+  padding: 24px;
   border-radius: 12px;
   display: flex;
   flex-direction: column;
@@ -106,8 +106,28 @@ h2 {
   width: 100%;
   text-align: center;
   background-color: var(--Grey);
-  padding: 8px 16px;
+  padding: 16px 16px;
   border-radius: 6px;
   font-size: 12px;
   font-weight: var(--weight-semi-bold);
+}
+
+.link:hover {
+  background-color: var(--Green);
+  color: var(--Off-Black);
+  cursor: pointer;
+}
+
+@media (min-width: 1440px) {
+  body {
+    max-width: 1440px;
+  }
+
+  article {
+    padding: 32px;
+  }
+
+  .link {
+    padding: 12px;
+  }
 }
