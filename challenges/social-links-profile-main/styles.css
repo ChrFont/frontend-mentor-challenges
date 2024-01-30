@@ -46,7 +46,6 @@ body {
   flex-direction: column;
   place-content: center;
   background-color: var(--Off-Black);
-  border: 1px solid white;
 }
 
 article {
