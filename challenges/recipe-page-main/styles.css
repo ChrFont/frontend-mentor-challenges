@@ -44,4 +44,155 @@ html {
 
 body {
   min-height: 100dvh;
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+main {
+  padding: 30px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 375px;
+}
+
+img {
+  width: 100%;
+  object-fit: contain;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+header h1 {
+  font-family: var(--font1);
+  font-weight: 400;
+  text-align: start;
+  line-height: 32px;
+  color: var(--Dark-Charcoal);
+}
+
+header p {
+  text-align: start;
+  color: var(--Wenge-Brown)
+}
+
+article {
+  background-color: var(--Rose-White);
+  padding: 18px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+article h1 {
+  color: var(--Dark-Raspberry);
+  font-size: 20px;
+}
+
+article ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0;
+  padding-right: 40px;
+  padding-inline-start: 24px;
+}
+
+article ul li span {
+  font-weight: 700;
+}
+
+article ul li {
+  color: var(--Wenge-Brown)
+}
+
+article ul li::marker {
+  color: var(--Dark-Raspberry);
+}
+
+section h1 {
+  color: var(--Nutmeg);
+  font-family: var(--font1);
+  font-weight: 400;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+section ul,
+section ol {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+section li {
+  color: var(--Wenge-Brown);
+  font-weight: 400;
+}
+
+section li span {
+  font-weight: 700;
+}
+
+section li::marker {
+  color: var(--Nutmeg);
+  font-weight: 700;
+}
+
+section p {
+  color: var(--Wenge-Brown)
+}
+
+table th {
+  color: var(--Wenge-Brown);
+  font-weight: 400;
+}
+
+table td {
+  color: var(--Nutmeg);
+  font-weight: 600;
+}
+
+hr {
+  border-color: var(--Light-Grey);
+}
+
+th,
+td {
+  border-bottom: 2px solid var(--Light-Grey);
+  padding: 6px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+
+@media (min-width: 1440px) {
+
+  body {
+    max-width: 100dvw;
+    background-color: var(--Eggshell);
+    padding: 40px;
+  }
+
+  main {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: var(--White);
+    border-radius: 12px;
+  }
+
+  img {
+    border-radius: 12px;
+  }
 }
